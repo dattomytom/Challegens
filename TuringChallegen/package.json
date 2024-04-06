@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "@babel/register": "^7.23.7",
+    "node": "^18.20.1"
+  },
+  "name": "turingchallegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "task1": "node tasks/task1.js",
+    "task2": "node tasks/task2.js",
+    "task3": "node tasks/task3.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
